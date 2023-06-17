@@ -1,6 +1,6 @@
 import gymnasium as gym
 
-env = gym.make('Taxi-v3')
+env = gym.make('Taxi-v3', render_mode='human')
 state = env.reset()
 
 epochs, penalties, reward = 0, 0, 0

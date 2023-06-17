@@ -40,3 +40,6 @@ average_penalties = total_penalties / float(100)
 print("Evaluation results after {} trials".format(100))
 print("Average time steps taken: {}".format(average_time))
 print("Average number of penalties incurred: {}".format(average_penalties))
+
+np.set_printoptions(suppress=True, threshold=np.inf)
+print(q_table)

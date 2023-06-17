@@ -10,7 +10,7 @@ q_table = np.zeros([env.observation_space.n, env.action_space.n]) # type: ignore
 
 # reset environment to a new, random state
 # Hyperparameters
-alpha = 0.3 #learning rate
+alpha = 0.1 #learning rate
 gamma = 0.9 #discount factor
 epsilon = 0.1 #the exploration rate
 
